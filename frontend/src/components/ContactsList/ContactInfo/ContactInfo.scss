@@ -1,0 +1,36 @@
+.ContactInfo {
+  margin: 1rem;
+  background-color: #e7e2e280;
+  border-radius: 1rem;
+  padding: 1rem;
+
+  .ContactInfo_data {
+    .name {
+      font-size: 1.2rem;
+      font-weight: 600;
+      @media (max-width: 1000px) {
+        font-size: 0.9rem;
+      }
+    }
+    .mobile {
+      font-size: 1.1rem;
+      font-weight: 500;
+      @media (max-width: 1000px) {
+        font-size: 0.9rem;
+      }
+    }
+    button {
+      color: white;
+      padding: 0.5rem 1rem;
+      background-color: #00da0f;
+      font-weight: 600;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      @media (max-width: 1000px) {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
